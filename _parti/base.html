@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}" />
+<meta name="robots" content="{{ROBOTS}}" />
+<link rel="canonical" href="{{SITO}}{{PATH}}" />
+<meta name="theme-color" content="#1c2618" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="preload" href="/assets/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="stylesheet" href="/assets/zerokm.css" />
+<meta property="og:locale" content="it_IT" />
+<meta property="og:site_name" content="ZeroKM" />
+<meta property="og:type" content="{{OG_TYPE}}" />
+<meta property="og:title" content="{{TITLE}}" />
+<meta property="og:description" content="{{DESCRIPTION}}" />
+<meta property="og:url" content="{{SITO}}{{PATH}}" />
+<meta property="og:image" content="{{SITO}}/assets/og-zerokm.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ZeroKM, la spesa a zero chilometri" />
+<meta name="twitter:card" content="summary_large_image" />
+{{TESTA}}
+</head>
+<body>
+<a class="salta" href="#contenuto">Vai al contenuto</a>
+<header class="testata">
+  <div class="contenitore">
+    <a class="marchio" href="/" aria-label="ZeroKM, pagina iniziale">{{LOGO}}<span>ZeroKM</span></a>
+    <nav class="navigazione" aria-label="Principale">
+      <a class="facoltativo" href="/#filosofia">Filosofia</a>
+      <a class="facoltativo" href="/#come-funziona">Come funziona</a>
+      <a href="/#domande">Domande</a>
+      <a href="/supporto/">Supporto</a>
+    </nav>
+  </div>
+</header>
+<main id="contenuto">
+{{CORPO}}
+</main>
+<footer class="piede">
+  <div class="contenitore">
+    <div>
+      <a class="marchio" href="/">{{LOGO2}}<span>ZeroKM</span></a>
+      <p>ZeroKM è un servizio di {{RAGIONE_SOCIALE}}, {{SEDE}}.</p>
+      <p>Partita IVA {{PIVA}}</p>
+      <p>Contatti: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+    </div>
+    <nav aria-label="Informazioni legali">
+      <a href="/supporto/">Supporto</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/termini/">Termini di servizio</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
